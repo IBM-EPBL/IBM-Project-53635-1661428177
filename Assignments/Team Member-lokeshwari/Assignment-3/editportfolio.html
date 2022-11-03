@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>HTML Project</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+    <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:10px}
+img {
+    height: 240px;
+    border-radius: 10px;
+    margin: 50px;
+
+}
+</style>
+</head>
+
+<body>
+
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:20%;min-width:300px" id="mySidebar">
+    <a href= "javascript:void(0)" onclick="w3_close()"
+
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#Men" onclick="w3_close()" class="w3-bar-item w3-button">Men</a>
+  <a href="#Women" onclick="w3_close()" class="w3-bar-item w3-button">Women</a>
+    <a href="#kids" onclick="w3_close()" class="w3-bar-item w3-button">kids</a>
+
+
+</nav>
+	<!--Header(start)-->
+	<table id="header" border="0" width="100%"  style=" background: -webkit-linear-gradient(left, #a445b2, #fa4299);width: 100%"
+		cellpadding="0" cellspacing="0" >
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+
+
+						<td>
+							<font face="Verdana" size="6">
+								<b>Fashion Recommender</b>
+							</font>
+						</td>
+
+						<td width="15%">
+
+						</td>
+
+
+
+
+						<td>
+							<a href="#about" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									About
+								</font>
+							</a>
+						</td>
+
+						<td>
+							<a href="#Cart" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									    Cart
+								</font>
+							</a>
+						</td>
+
+						<td>
+							<a href="#Account" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									My Profile
+								</font>
+							</a>
+						</td>
+
+
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Header(end)-->
+
+	<!--Home(start)-->
+
+	<!--Home(end)-->
+<div>
+        <img src="https://fashion-images.s3.au-syd.cloud-object-storage.appdomain.cloud/ourimages/download%20(1).jfif"
+            alt="Dress" srcset="">
+        <img src="https://fashion-images.s3.au-syd.cloud-object-storage.appdomain.cloud/ourimages/download%20(2).jfif"
+            alt="Dress" srcset="">
+        <img src="https://fashion-images.s3.au-syd.cloud-object-storage.appdomain.cloud/ourimages/download%20(3).jfif"
+            alt="Dress" srcset="">
+        <img src="https://fashion-images.s3.au-syd.cloud-object-storage.appdomain.cloud/ourimages/download.jfif"
+            alt="Dress" srcset="">
+        <img src="https://fashion-images.s3.au-syd.cloud-object-storage.appdomain.cloud/ourimages/images.jfif"
+            alt="Dress" srcset="">
+    </div>
+
+	<!--About(start)-->
+	<table id="about" border="0" width="100%"
+		cellpadding="0" cellspacing="0" background="white">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="#a445b2">
+								About us
+							</font>
+
+						</td>
+					</tr>
+
+
+
+
+						<td width="20%">
+
+							<style>body{font-family:verdana,sans-serif;
+                                  size:15px;
+								color:black}</style>
+                            <body>
+								Thanks for your interest, here
+								is a quick story of me and this
+								website.
+								<p1 font-color="black">
+								With the trendiest, freshest, and most unique styles from across India and the world, our application invites you to express your personal style fearlessly, and with a confidence and optimism that cannot be easily shaken.
+                                </p1>
+								<p2 color="black">
+
+								Why let a world that loves to police your wardrobe and your expression get the upper hand, anyway?
+
+So the next time someone says ‘Oh, that dress is too bold’ ‘Are you sure you’re the right size for this?’ ‘Maybe you should pick a colour that suits you’ or ‘Act your age and wear something else’, go ahead and do exactly what you please. When it comes to great style and personal expression, there should never be any regrets.
+                                </p2>
+
+                            </body>
+						</td>
+
+				</table>
+
+			</td>
+		</tr>
+	</table>
+	<!--About(end)-->
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "77f9304d-e8a0-4001-8086-7e37e4c543de", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "0898d1e4-60e2-45bc-817c-4c6919ba755e", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+</body>
+
+</html>
