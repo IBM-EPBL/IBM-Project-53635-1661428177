@@ -1,0 +1,428 @@
+{
+  "LastUpdated": "2022-11-04T15:00:23.7958845+05:30",
+  "Success": true,
+  "RepositoryURL": "https://plugins.cloud.ibm.com",
+  "CLIVersion": "2.12.1",
+  "Plugins": [
+    {
+      "PluginName": [
+        "container-registry",
+        "cr"
+      ],
+      "Version": "1.0.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/container-registry/1.0.2/container-registry-windows-amd64-1.0.2.exe",
+      "Checksum": "e74950aa4352d9a4002d47c21031b8b17fdce9b92605210392afa324a5fe8d18",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "container-service",
+        "kubernetes-service",
+        "ks"
+      ],
+      "Version": "1.0.459",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/container-service/1.0.459/container-service-windows-amd64-1.0.459.exe",
+      "Checksum": "973b06b360499718bc3bf30d095883d4840419d17495167d5a10d465e28c89ed",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "analytics-engine"
+      ],
+      "Version": "1.0.194",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/analytics-engine/1.0.194/analytics-engine-windows-amd64-1.0.194.exe",
+      "Checksum": "21321f0837981455c94e146ec26182c758ac4149b0d047fefcdcbaa496b9ac4c",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cloud-functions",
+        "wsk",
+        "functions",
+        "fn"
+      ],
+      "Version": "1.0.61",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cloud-functions/1.0.61/cloud-functions-windows-amd64-1.0.61.exe",
+      "Checksum": "a46a444defb7ba775a6108c6a75f01d251f677a71ee969d3c6f80e0d1a86a8a0",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cloud-internet-services",
+        "cis"
+      ],
+      "Version": "1.14.9",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cloud-internet-services/1.14.9/cloud-internet-services-windows-amd64-1.14.9.exe",
+      "Checksum": "164f0785d1c1e685a4e720781cc6f291241904d32c5bc94ae9cdf5003246deaa",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "dbaas-cli",
+        "dbaas"
+      ],
+      "Version": "2.2.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/dbaas-cli/2.2.0/dbaas-cli-windows-amd64-2.2.0.exe",
+      "Checksum": "2f19b6432ec2c09b4b1a42c156e373778537fdfea1befc7cfaac8be0d64e1b03",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cloud-databases",
+        "cdb"
+      ],
+      "Version": "0.12.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cloud-databases/0.12.0/cloud-databases-windows-amd64-0.12.0.exe",
+      "Checksum": "d80c19903c24966b20bd98919a554f1efd371335e6f5e99ba7ad1baba006f7b6",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "key-protect",
+        "kp"
+      ],
+      "Version": "0.7.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/key-protect/0.7.0/key-protect-windows-amd64-0.7.0.exe",
+      "Checksum": "302c325b24e537bbc8ccf198fe062edbee6e91c565d3a9f5417899e2bd2a0f69",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "doi",
+        "doi"
+      ],
+      "Version": "0.4.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/doi/0.4.0/doi-windows-amd64-0.4.0.exe",
+      "Checksum": "a1c0a3809306c6a16cc54931b9efe447e4f7adffc7f5deb039ad5d8e69db81a1",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "tke"
+      ],
+      "Version": "1.3.1",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/tke/1.3.1/tke-windows-amd64-1.3.1.exe",
+      "Checksum": "613b3099819933d8dae4dcaae1401d57a73b09ffa838850bbf36ff60abaaf5eb",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cloud-object-storage"
+      ],
+      "Version": "1.6.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cloud-object-storage/1.6.0/cloud-object-storage-windows-amd64-1.6.0.exe",
+      "Checksum": "5f4c9f4062c31326f2270a6ef8ef266ceade2da4d173bcced9a2096353343f7e",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "event-streams"
+      ],
+      "Version": "2.3.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/event-streams/2.3.2/event-streams-windows-amd64-2.3.2.exe",
+      "Checksum": "c47e00319920ae6cf612afe3407e4c3b74b3299772c9349e5cd2a2f9cc7dfb87",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "power-iaas",
+        "pi"
+      ],
+      "Version": "0.4.3",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/power-iaas/0.4.3/power-iaas-windows-amd64-0.4.3.exe",
+      "Checksum": "a03561d46206788448cdb86fd0f96427635bde6b3d2bbaa954181ad293219edc",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "vpc-infrastructure",
+        "infrastructure-service",
+        "is"
+      ],
+      "Version": "6.0.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/vpc-infrastructure/6.0.0/vpc-infrastructure-windows-amd64-6.0.0.exe",
+      "Checksum": "0dd5996f615f01c06edcdc1072758fd75645ff9a0b606d4a4e5c4ed04f4ada65",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "schematics",
+        "sch"
+      ],
+      "Version": "1.12.3",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/schematics/1.12.3/schematics-windows-amd64-1.12.3.exe",
+      "Checksum": "7c2fd2ba0c80556b3e31869f279e7210f97e0162df06d2f336615d95184d0aaa",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cloud-dns-services",
+        "dns"
+      ],
+      "Version": "0.7.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cloud-dns-services/0.7.2/cloud-dns-services-windows-amd64-0.7.2.exe",
+      "Checksum": "dc930339205f2a5721b03af5f1bdc085aec94f01c97467172714bd1e8f3efbbc",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "dl-cli",
+        "dl"
+      ],
+      "Version": "0.5.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/dl-cli/0.5.2/dl-cli-windows-amd64-0.5.2.exe",
+      "Checksum": "308258f811d7c2a82116cfedf4f9e9d9a38a0c301a0da918d09d8c96ca15feac",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "watson"
+      ],
+      "Version": "0.0.11",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/watson/0.0.11/watson-windows-amd64-0.0.11.exe",
+      "Checksum": "ebab9a2731a66913fca09f2b84c90715071ca1f6e0e34f27d0efe4fdd313d3de",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "catalogs-management"
+      ],
+      "Version": "2.2.4",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/catalogs-management/2.2.4/catalogs-management-windows-amd64-2.2.4.exe",
+      "Checksum": "c55fafa188dbb7d3f596ad1b57f7afe6f18954e1eaab4b3a3903dbf8cd68f029",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "tg-cli",
+        "tg"
+      ],
+      "Version": "0.8.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/tg-cli/0.8.2/tg-cli-windows-amd64-0.8.2.exe",
+      "Checksum": "c61485fe3294da68014eb9b724dd07e2b1e450fba12b0777181b3ce1f2341fbf",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "observe-service"
+      ],
+      "Version": "1.0.82",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/observe-service/1.0.82/observe-service-windows-amd64-1.0.82.exe",
+      "Checksum": "7948ad32ef92e38cd6a8b6f1229341c438b76f7b78b10e01088555c2f19ba06b",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "code-engine"
+      ],
+      "Version": "1.40.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/code-engine/1.40.0/code-engine-windows-amd64-1.40.0.exe",
+      "Checksum": "50f0fd1a972c58124a4ae00bb4c83607ebca8f90ff7c9b7871762af1a676899f",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "hpvs"
+      ],
+      "Version": "1.4.21",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/hpvs/1.4.21/hpvs-windows-amd64-1.4.21.exe",
+      "Checksum": "fded29ed20f7c3973bc9c7975144930030267b4ed62c626f7f0961dc2f449701",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "secrets-manager",
+        "sm"
+      ],
+      "Version": "0.1.23",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/secrets-manager/0.1.23/secrets-manager-windows-amd64-0.1.23.exe",
+      "Checksum": "66c0f3a7ada0ee18b30e60b73211b304f55232044fccabef051ad72ec35fcd61",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "app-configuration",
+        "ac"
+      ],
+      "Version": "1.0.11",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/app-configuration/1.0.11/app-configuration-windows-amd64-1.0.11.exe",
+      "Checksum": "5d2bd43d627d1ae9ab0745e1529174739a58b0be21a2ed4669567bb4b7cfc860",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "monitoring"
+      ],
+      "Version": "0.2.12",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/monitoring/0.2.12/monitoring-windows-amd64-0.2.12.exe",
+      "Checksum": "a5379ca97cf212eae9b1a549b25159c688535212720e7e270216d6f7bbd142d9",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "logging"
+      ],
+      "Version": "0.0.8",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/logging/0.0.8/logging-windows-amd64-0.0.8.exe",
+      "Checksum": "e528c04494784bdae294e94c0cf45efbfd2b6471cf4fd7d908cc9b718b40eaba",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cloudant",
+        "cl"
+      ],
+      "Version": "0.0.6",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cloudant/0.0.6/cloudant-windows-amd64-0.0.6.exe",
+      "Checksum": "213189a6414ae0f18dbfc4ec6bdd615392fd01f421c84fb6e02dc784e66e3974",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "hpcs-cert-mgr",
+        "hpcs-cert-mgr"
+      ],
+      "Version": "1.0.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/hpcs-cert-mgr/1.0.0/hpcs-cert-mgr-windows-amd64-1.0.0.exe",
+      "Checksum": "fd2ca0571d33e64172f76c267c3a2e4736e2faa3ea2f9130e4b08e34a822c142",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "atracker",
+        "at"
+      ],
+      "Version": "0.2.17",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/atracker/0.2.17/atracker-windows-amd64-0.2.17.exe",
+      "Checksum": "3186ce234383a2b55304aa42aec3380d556fa1e4285d6418f49785f286074be8",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "analytics-engine-v3",
+        "ae-v3"
+      ],
+      "Version": "2.0.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/analytics-engine-v3/2.0.0/analytics-engine-v3-windows-amd64-2.0.0.exe",
+      "Checksum": "7bb7ecc3cc0af0053b9f324cb6f2c3725284b6f7b4b39a88b5cfdafc0d87d371",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cra",
+        "cra"
+      ],
+      "Version": "1.0.4",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cra/1.0.4/cra-windows-amd64-1.0.4.exe",
+      "Checksum": "8fdacc4c5232db162c0741724fca41a5315e5bea2bdd54ff227b185e8a629a67",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "event-notifications",
+        "en",
+        "event-notifications"
+      ],
+      "Version": "0.1.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/event-notifications/0.1.2/event-notifications-windows-amd64-0.1.2.exe",
+      "Checksum": "b384a16b0c85b7da8b8bc317d897979f558b139261c5f1208fe4410e74b1bead",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "dvaas",
+        "watson-query"
+      ],
+      "Version": "1.0.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/dvaas/1.0.2/dvaas-windows-amd64-1.0.2.exe",
+      "Checksum": "d3ccdb98dfe69ef1ac27e875c02d5f2ef8441332f8060e85b5a53e4eac1759be",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "hpnet"
+      ],
+      "Version": "1.0.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/hpnet/1.0.2/hpnet-windows-amd64-1.0.2.exe",
+      "Checksum": "35ce017b4f2eaf22fe3340dec87f2d862130a2c3f3c21e69900ffb16c3eb1787",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "qiskit-runtime",
+        "qr"
+      ],
+      "Version": "0.1.5",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/qiskit-runtime/0.1.5/qiskit-runtime-windows-amd64-0.1.5.exe",
+      "Checksum": "45b46674e2e2204fec6255bd3bf4cc92bf8daae429b8f0426f01b6d8845a30b7",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "hpcs"
+      ],
+      "Version": "0.0.1",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/hpcs/0.0.1/hpcs-windows-amd64-0.0.1.exe",
+      "Checksum": "2e43d001b54de72d854f61b63945b7daf1b5fc2c1fd926c86410c3a3026b926d",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "cbr"
+      ],
+      "Version": "1.1.0",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/cbr/1.1.0/cbr-windows-amd64-1.1.0.exe",
+      "Checksum": "c5b4308fede10564290d510eb204c3bbec7af1b6018fb65d4a327d0ace824191",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    },
+    {
+      "PluginName": [
+        "privileged-access-gateway",
+        "pag"
+      ],
+      "Version": "1.2.2",
+      "URL": "https://plugins.cloud.ibm.com/downloads/bluemix-plugins/privileged-access-gateway/1.2.2/privileged-access-gateway-windows-amd64-1.2.2.exe",
+      "Checksum": "e07be929584a1bed382ea91238d2411d593974e5f8b782c0839fff2fdc54371c",
+      "ReleaseNotesLink": "",
+      "IsAlternate": false
+    }
+  ]
+}
